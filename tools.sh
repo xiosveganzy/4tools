@@ -1,4 +1,4 @@
-echo "Selamat Datang di penyedia 5 tools sederhana kami :)
+echo "Selamat Datang di penyedia 4 tools sederhana kami :)
 sleep 0.2
 echo "Dengan nama siapa kalau boleh tahu? (Opsional)"
 read nama
@@ -13,9 +13,7 @@ echo "02) DDOS HAMMER"
 sleep 0.1
 echo "03) DDOS XERXES"
 sleep 0.1
-echo "04) Dark Facebook" 
-sleep 0.1
-echo "05) Dark Instagram"
+echo "04) Dark Instagram"
 sleep 2
 read -p "<[mryouknowme@tools]> " x;
 
@@ -54,3 +52,23 @@ read web
 ./xerxes $web 80
 fi
 
+if [ x = 04 ] || [ x = 04 ]
+then
+clear
+git clone https://github.com/rezadkim/dark-ig
+cd dark-ig
+python2 ig.py
+fi
+
+if [ x = 00 ] || [ x = 00 ]
+then
+clear
+echo "Thanks to Author "Mr.Y0uKn0wM3"
+sleep 0.2
+echo "Thanks to GreyHat Team"
+sleep 0.3
+echo "Maaf jika masih jelek :( Masih pemula :/
+sleep 0.4
+echo "== Terimakasih telah menggunakan tools simple ini !!===="
+exit
+fi
