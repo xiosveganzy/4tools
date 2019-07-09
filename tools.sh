@@ -41,7 +41,7 @@ git clone https://github.com/cyweb/hammer
 cd hammer
 echo "Masukan IP Target : "
 read ip
-echo "Masukan Port : 
+echo "Masukan Port : "
 read port
 echo "Masukan Turbo : "
 read turbo
