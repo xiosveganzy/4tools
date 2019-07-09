@@ -19,7 +19,7 @@ echo "=================="
 sleep 0.2
 echo "00 = Exit"
 sleep 0.2
-echo "ketik (uninstall) untuk menghapus tools ini ! => tanpa ()"
+echo "ketik (0) untuk menghapus tools ini ! => tanpa ()"
 echo "================="
 sleep 2
 read -p "<[mryouknowme@tools]> " x;
@@ -74,13 +74,13 @@ echo "Thanks to Author "Mr.Y0uKn0wM3"
 sleep 0.2
 echo "Thanks to GreyHat Team"
 sleep 0.3
-echo "Maaf jika masih jelek :( Masih pemula :/
+echo "Maaf jika masih jelek :( Masih pemula :/"
 sleep 0.4
 echo "== Terimakasih telah menggunakan tools simple ini !!===="
 exit
 fi
 
-if [ x = "uninstall" ] || [ x = "uninstall" ]
+if [ x = 0 ] || [ x = 0 ]
 then
 clear
 echo "Penghapusan tools dijamin aman 100%"
@@ -90,3 +90,4 @@ sleep 1
 echo "Memulai.."
 rm -rf /data/data/com.termux/home/4tools
 exit
+fi
