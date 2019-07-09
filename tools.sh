@@ -1,6 +1,6 @@
 echo "Selamat Datang di penyedia 4 tools sederhana kami :)
 sleep 0.2
-echo "Dengan nama siapa kalau boleh tahu? (Opsional)"
+echo "Dengan nama siapa kalau boleh tahu?"
 read nama
 sleep 0.5
 echo "==== NAMA : $nama ======"
@@ -14,6 +14,10 @@ sleep 0.1
 echo "03) DDOS XERXES"
 sleep 0.1
 echo "04) Dark Instagram"
+sleep 0.1
+echo "=================="
+sleep 0.2
+echo "00) Exit"
 sleep 2
 read -p "<[mryouknowme@tools]> " x;
 
