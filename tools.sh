@@ -1,4 +1,4 @@
-echo "Selamat Datang di penyedia 4 tools sederhana kami :)
+echo "Selamat Datang di penyedia 4 tools sederhana kami :)"
 sleep 0.2
 echo "Dengan nama siapa kalau boleh tahu?"
 read nama
@@ -17,7 +17,10 @@ echo "04) Dark Instagram"
 sleep 0.1
 echo "=================="
 sleep 0.2
-echo "00) Exit"
+echo "00 = Exit"
+sleep 0.2
+echo "ketik (uninstall) untuk menghapus tools ini ! => tanpa ()"
+echo "================="
 sleep 2
 read -p "<[mryouknowme@tools]> " x;
 
@@ -76,3 +79,14 @@ sleep 0.4
 echo "== Terimakasih telah menggunakan tools simple ini !!===="
 exit
 fi
+
+if [ x = "uninstall" ] || [ x = "uninstall" ]
+then
+clear
+echo "Penghapusan tools dijamin aman 100%"
+sleep 1
+echo "Jika ada data yang terhapus saat sesudah penghapusan tools Ini maka kami yang bertanggung jawab"
+sleep 1
+echo "Memulai.."
+rm -rf /data/data/com.termux/home/4tools
+exit
