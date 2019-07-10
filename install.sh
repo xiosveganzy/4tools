@@ -1,3 +1,4 @@
+clear
 echo "Memulai pengumpulan bahan.."
 sleep 2
 clear
