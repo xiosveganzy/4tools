@@ -1,3 +1,4 @@
+clear
 echo "Selamat Datang di penyedia 4 tools sederhana kami :)"
 sleep 0.2
 echo "Dengan nama siapa kalau boleh tahu?"
@@ -28,6 +29,7 @@ if [ x = 01 ] || [ x = 01 ]
 then 
 clear
 git clone https://github.com/sqlmapproject/sqlmap
+clear
 cd sqlmap
 echo "Masukan Web Target ( HARUS VULN ) : "
 read target
@@ -38,6 +40,7 @@ if [ x = 02 ] || [ x = 02 ]
 then
 clear
 git clone https://github.com/cyweb/hammer
+clear
 cd hammer
 echo "Masukan IP Target : "
 read ip
@@ -52,6 +55,7 @@ if [ x = 03 ] || [ x = 03 ]
 then
 clear
 git clone https://github.com/zanyarjamal/xerxes
+clear
 cd xerxes
 gcc xerxes -o xerxes.c
 echo "Masukan Web target : "
@@ -63,6 +67,7 @@ if [ x = 04 ] || [ x = 04 ]
 then
 clear
 git clone https://github.com/rezadkim/dark-ig
+clear
 cd dark-ig
 python2 ig.py
 fi
@@ -88,6 +93,7 @@ sleep 1
 echo "Jika ada data yang terhapus saat sesudah penghapusan tools Ini maka kami yang bertanggung jawab"
 sleep 1
 echo "Memulai.."
+cd /data/data/com.termux/home
 rm -rf /data/data/com.termux/home/4tools
 exit
 fi
