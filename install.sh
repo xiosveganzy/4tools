@@ -42,6 +42,7 @@ echo "99%"
 sleep 1
 echo "100%"
 sleep 3
+clear
 echo "Memulai Tools Sederhana kami..."
 sleep 1
 chmod +x tools.sh
