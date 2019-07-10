@@ -81,7 +81,7 @@ echo "Thanks to GreyHat Team"
 sleep 0.3
 echo "Maaf jika masih jelek :( Masih pemula :/"
 sleep 0.4
-echo "== Terimakasih telah menggunakan tools simple ini !!===="
+echo "== Terimakasih telah menggunakan tools simple ini ===="
 exit
 fi
 
